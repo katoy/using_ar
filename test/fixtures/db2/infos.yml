@@ -1,0 +1,7 @@
+<% (1..3).each do |id| %>
+user_<%= id %>:
+  id:      <%= id %>
+  name:    USER_<%= format('%04d', id) %>
+  address: address_<%= format('%04d', id) %>
+  created_at: <%= Time.now %>
+<% end %>

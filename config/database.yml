@@ -1,0 +1,49 @@
+
+production:
+  db1:
+    adapter: postgresql
+    database: db1_production
+    username: <%= ENV['AR_USER'] %>
+    password: <%= ENV['AR_PASSWORD'] %>
+    encoding: utf8
+    host:     localhost
+  db2:
+    adapter: postgresql
+    database: db2_production
+    username: <%= ENV['AR_USER'] %>
+    password: <%= ENV['AR_PASSWORD'] %>
+    encoding: utf8
+    host:     localhost
+
+development:
+  db1:
+    adapter: postgresql
+    database: db1_development
+    username: <%= ENV['AR_USER'] %>
+    password: <%= ENV['AR_PASSWORD'] %>
+    encoding: utf8
+    host:     localhost
+  db2:
+    adapter: postgresql
+    database: db2_development
+    username: <%= ENV['AR_USER'] %>
+    password: <%= ENV['AR_PASSWORD'] %>
+    encoding: utf8
+    host:     localhost
+
+test:
+  db1:
+    adapter: postgresql
+    database: db1_test
+    username: <%= ENV['AR_USER'] %>
+    password: <%= ENV['AR_PASSWORD'] %>
+    encoding: utf8
+    host:     localhost
+
+  db2:
+    adapter: postgresql
+    database: db2_test
+    username: <%= ENV['AR_USER'] %>
+    password: <%= ENV['AR_PASSWORD'] %>
+    encoding: utf8
+    host:     localhost

@@ -1,0 +1,27 @@
+
+production:
+  db1:
+    adapter: sqlite3
+    database: db/db1_production.sqlite3
+
+  db2:
+    adapter: sqlite3
+    database: db/db2_production.sqlite3
+
+development:
+  db1:
+    adapter: sqlite3
+    database: db/db1_development.sqlite3
+
+  db2:
+    adapter: sqlite3
+    database: db/db2_development.sqlite3
+
+test:
+  db1:
+    adapter: sqlite3
+    database: db/db1_test.sqlite3
+
+  db2:
+    adapter: sqlite3
+    database: db/db2_test.sqlite3
